@@ -39,7 +39,7 @@ var numErr;
 
 // READ DATA (AMAP.TXT)
 var fs = require('fs');
-fs.readFile('./amap-for-validator-2.txt', 'utf8', function(err, data) {
+fs.readFile('./amap-for-validator.txt', 'utf8', function(err, data) {
     if( err ){
         console.log(err)
     }
