@@ -14,7 +14,7 @@ var first;
 
 // READ DATA (AMAP.TXT)
 var fs = require('fs');
-fs.readFile('./generated-files/amap.txt', 'utf8', function(err, data) {
+fs.readFile('./amap.txt', 'utf8', function(err, data) {
     if( err ){
         console.log(err)
     }
